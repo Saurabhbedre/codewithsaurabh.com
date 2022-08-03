@@ -187,3 +187,16 @@ span.psw {
   margin-top: 10%;
   margin-left: 20%;
 }
+
+.about{
+				border: 2px black solid;
+				margin-top: 10%;
+				width: 80%;
+				background-color: lightgray;
+				margin-left: 10%;
+				text-align: center;
+}
+
+.avtar{
+				width: 20%;
+}
