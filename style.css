@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+VIC+WA+NT+Beginner&display=swap');
 body {
      margin: 0;
 				width: 100%;
@@ -160,33 +159,6 @@ span.psw {
   }
 }
 
-.lbt{
-		background-color: #00ffab;
-  color: black;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 60%;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 30px;
-  margin-top: 20%;
-  margin-left: 20%;
-}
-
-.lbs{
-		background-color: #00ffab;
-  color: black;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 60%;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 30px;
-  margin-top: 10%;
-  margin-left: 20%;
-}
 
 .about{
 				border: 2px black solid;
@@ -199,4 +171,95 @@ span.psw {
 
 .avtar{
 				width: 20%;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-top: 30px;
+  margin-left: 5%;
+  margin-right:5%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 20px 16px;
+}
+
+.cardim{
+			width: 90%;
+			margin-left: 5%;
+			margin-top: 5%;
+			
+}
+
+
+.linkrm{
+     background:#d7d7d7;
+     border:1px solid #ccc;
+     -moz-border-radius:3px;
+     -webkit-border-radius:3px;
+     -khtml-border-radius:3px;
+     border-radius:3px;
+     color:#333;
+     padding:.3em .5em;
+     text-decoration:none;
+     margin-bottom: 10%;
+}
+
+.linkrm:hover{
+				background:gray;
+}
+
+.foot{
+				background: lightblue;
+				text-align: center;
+				width: 100%;
+				height: 60px;
+				margin-top: 30px;
+}
+
+
+/* Footer */
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
 }
