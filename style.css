@@ -162,17 +162,7 @@ span.psw {
 }
 
 
-.about{
-				border: 2px black solid;
-				margin-top: 10%;
-				width: 80%;
-				background-color: lightgray;
-				margin-left: 10%;
-				text-align: center;
-}
 
-.avtar{
-				width: 20%;
 }
 .card {
   /* Add shadows to create the "card" effect */
@@ -216,8 +206,9 @@ span.psw {
 }
 
 .linkrm:hover{
-				background:gray;
+				background:lightblue;
 				text-decoration:none;
+				color: black;
 }
 
 
@@ -261,4 +252,23 @@ span.psw {
   margin-bottom:0;
 }
 
+
+/*About us*/
+
+.avtar{
+				width: 50%;
+}
+
+.about{
+			background: white;
+			margin-top: 20%;
+			margin-left: 5%;
+			margin-right:5%;
+			margin-bottom: 30%;
+			width: 90%;
+			height: 330px;
+			text-align: center;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+			
+}
 
