@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-signin-client_id" content="938193994997-sdk9knfe26j4eu4fou97ile2vkjahlgc.apps.googleusercontent.com">
-    <title>Sign In With Google Using JavaScript</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Page title</title>
+				<link rel="stylesheet" href="style.css"></link>
 </head>
-
 <body>
-    <h2 class="alert alert-success">Sign-In With Google Using JavaScript</h2>
-    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+				<form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="img/logob.png" alt="Avatar" class="avatar">
+  </div>
 
-    <div class="data">
-        <p>Name</p>
-        <p id="name"></p>
-        <p>Image</p>
-        <img id="image" class="rounded-circle" width="100" height="100" />
-        <p>Email</p>
-        <p id="email"></p>
-        <button type="button" class="btn btn-danger" onclick="signOut();">Sign Out</button>
-    </div>
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
 
-    <script src="index.js" async defer></script>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-        crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="loginbtn">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <p>I don't have an account <a href="signup.html" style="color:dodgerblue">Sign Up</a>.</p>
+    <div class="clearfix">
+  </div>
+    <div class="clearfix">
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
 </body>
-
 </html>
